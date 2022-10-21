@@ -99,7 +99,10 @@ Recommendation: At the beginning of the page, explain that
 transaction/ReadResponse objects are get when it is called an update/read 
 method method of a contract
 
+##### Improvement proposal #8
+Currently, the connection with Metamask and WalletConnect should be managed by the developer, which can get pretty hard if it is not familiar working with web3 DApps
 
+Recommendatin: Provide a modal like the one that has web3uikit to make the connection to the provider easier for the developer
 
 ### Other bugs
 
