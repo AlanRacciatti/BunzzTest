@@ -8,7 +8,6 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -85,6 +84,22 @@
   max-width: 300px;
 }
 
+.connectButton {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #0070f3;
+  border: none;
+  border-radius: 10px;
+}
+
+.ownerButton {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: rebeccapurple;
+  border: none;
+  border-radius: 10px;
+}
+
 .card:hover,
 .card:focus,
 .card:active {
@@ -116,13 +131,16 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
   .card,
   .footer {
     border-color: #222;
   }
+
   .code {
     background: #111;
   }
+
   .logo img {
     filter: invert(1);
   }
