@@ -32,13 +32,8 @@ export default function Home() {
       updateTotalSupply()
       updateIsOwner()
       updateIsWhitelisted()
-      test()
     }
   }, [contract])
-
-  const test = async () => {
-    console.log(await contract.tokenURI(1))
-  }
 
   const updateTotalSupply = async () => {
     setTotalSupply(+(await contract.totalSupply()).data)
